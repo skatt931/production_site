@@ -55,7 +55,7 @@
 
                     <button class="navigation-button uk-button uk-button-default uk-position-top-right" type="button"><a href="" class="uk-icon-link" uk-icon="icon: menu"></a></button>
                     <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
-                        <ul class="uk-nav uk-dropdown-nav">
+                        <ul class="uk-nav uk-dropdown-nav small-screen-nav">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="blog.html">Blog</a></li>
                             <li><a href="Interesting_English.html">Interesting English</a></li>
@@ -81,6 +81,75 @@
     </div>
 </div>
 <!--	END Header block-->
+
+<div class="blog">
+    <div class="stripes">
+        <img src="img/stripes.png" alt="">
+    </div>
+    <div class="container uk-card uk-card-body " uk-grid>
+        <h2 class="uk-text-capitalize">My blog</h2>
+    </div>
+    <div class="container uk-card uk-card-body" uk-grid>
+        <div class="uk-child-width-1-2@m" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-hover">
+                    <div class="uk-card-media-top">
+                        <a href="#modal-full1" uk-toggle><img src="img/study1.jpg" alt=""></a>
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Media Top</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        <a href="#modal-full1" uk-toggle>Read More</a>
+                    </div>
+                </div>
+
+                <!--This div is made for modal window it will be wisible only if you will click on the link belowe-->
+                <div id="modal-full1" class="uk-modal-full" uk-modal>
+                    <div class="uk-modal-dialog">
+                        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+                        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                            <div class="uk-background-cover" style="background-image: url('img/study1.jpg');" uk-height-viewport></div>
+                            <div class="uk-padding-large">
+                                <h1>Headline</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-hover">
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Media Bottom</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        <a href="#modal-full2" uk-toggle>Read More</a>
+                    </div>
+                    <div class="uk-card-media-top">
+                        <a href="#modal-full2" uk-toggle><img src="img/study4.jpg" alt=""></a>
+                    </div>
+                </div>
+
+                <div id="modal-full2" class="uk-modal-full" uk-modal>
+                    <div class="uk-modal-dialog">
+                        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+                        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                            <div class="uk-background-cover" style="background-image: url('img/study2.jpg');" uk-height-viewport></div>
+                            <div class="uk-padding-large">
+                                <h1>Headline</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
 <!--Footer-->
 <div class="footer">
     <div class="uk-text-center">

@@ -49,7 +49,7 @@
 
                         <button class="navigation-button uk-button uk-button-default uk-position-top-right" type="button"><a href="" class="uk-icon-link" uk-icon="icon: menu"></a></button>
                         <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
-                            <ul class="uk-nav uk-dropdown-nav">
+                            <ul class="uk-nav uk-dropdown-nav small-screen-nav">
                                 <li class="uk-active"><a href="index.html">Home</a></li>
                                 <li><a href="blog.html">Blog</a></li>
                                 <li><a href="Interesting_English.html">Interesting English</a></li>
@@ -62,11 +62,6 @@
                        <div class="main_text_block">
                             <h1 class="uk-heading-primary uk-text-center">English Teacher And Good Person</h1>
                             <p class="uk-text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati vitae veniam, quo possimus soluta tempora amet. In accusamus iste labore quod, nam aliquid, quam quasi.</p>
-                            <!-- -->
-                            <!--<div class="head_form">-->
-                                <!--<input class="inputs uk-input uk-form-width-medium" type="text" placeholder="Your email">-->
-                                <!--<button class="buttons uk-button uk-button-primary">Signup</button>-->
-                            <!--</div>-->
                        </div>
                     </div>
 				</div>
@@ -167,7 +162,6 @@
 	
 	<!--What to do block-->
 	<div class="podcast">
-<!--	    <div class="container uk-card uk-card-body">-->
            <div class="container uk-child-width-expand@s uk-text-center" uk-grid>
                 <div>
                     <div class="uk-card uk-card-body">
@@ -194,7 +188,6 @@
                     </div>
                 </div>
            </div>
-<!--        </div>-->
 	</div>
 	<!--END What to do block-->
 	
@@ -202,21 +195,14 @@
 	<div class="twitter">
 	    <div class="container uk-child-width-expand@s uk-text-center" uk-grid>
                 <div>
-<!--                   <div class="uk-card uk-card-body">-->
-                        <!--<blockquote class="twitter-tweet"><p lang="en" dir="ltr">✍ Can you find the common mistake in this sentence? ✍<br><br>Test how well you spot mistakes: <a href="https://t.co/lcXSfwl7ZV">https://t.co/lcXSfwl7ZV</a><a href="https://twitter.com/hashtag/english?src=hash">#english</a> <a href="https://twitter.com/hashtag/quiz?src=hash">#quiz</a> <a href="https://t.co/bLTlz5B42B">pic.twitter.com/bLTlz5B42B</a></p>&mdash; BBC Learning English (@bbcle) <a href="https://twitter.com/bbcle/status/857927199827079168">April 28, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>-->
                     <a class="twitter-timeline" data-width="350" data-height="400" data-dnt="true" data-link-color="#19CF86" href="https://twitter.com/bbcle">Tweets by bbcle</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<!--                    </div>-->
                 </div>
                 <div>
-<!--                    <div class="uk-card uk-card-body">-->
                     <a class="twitter-timeline" data-width="350" data-height="400" data-dnt="true" data-link-color="#19CF86" href="https://twitter.com/learnenglish">Tweets by learnenglish</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<!--                    </div>-->
+
                 </div>
                 <div>
-<!--                    <div class="uk-card uk-card-body">-->
-                         <!--<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you know the answer? <a href="https://t.co/HR8mVTaIHj">pic.twitter.com/HR8mVTaIHj</a></p>&mdash; LearnEnglish (@LearnEnglish_BC) <a href="https://twitter.com/LearnEnglish_BC/status/857610566176845828">April 27, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>-->
                     <a class="twitter-timeline" data-width="350" data-height="400" data-dnt="true" data-link-color="#19CF86" href="https://twitter.com/LearnEnglish_BC">Tweets by LearnEnglish_BC</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<!--                    </div>-->
                 </div>
            </div>
 	</div>
@@ -225,7 +211,6 @@
 	
 	<!--Last block-->
 	<div class="last_block footer-cover uk-background-cover">
-<!--        <div class="container uk-card uk-card-body">-->
           <div class="play uk-position-top-center">
                   <div id="modal-center" uk-modal="center: true">
                     <div class="uk-modal-dialog">
@@ -234,33 +219,29 @@
                     </div>
                 </div>
             </div>
-        <!--<div class="uk-child-width-expand@s uk-grid-large container uk-card uk-card-default">-->
-            <!--<div class="uk-align-center">-->
 
-            <!--</div>-->
-        <!--</div>-->
+        <!--FORM to sending emails-->
            <div class="last_block_text uk-position-center uk-text-center">
-                <!--<button class="buttons uk-button uk-button-primary">Hire me</button>-->
-               <form class="form" action="https://formspree.io/i.kurnytskyi@gmail.com"
-                     method="POST">
-                   <fieldset class="uk-fieldset">
+               <form class="form uk-grid-small" action="https://formspree.io/i.kurnytskyi@gmail.com"
+                     method="POST" uk-grid>
 
                        <legend class="uk-legend">Contact me</legend>
 
-                       <div class="uk-margin">
-                           <input class="inputs1 uk-input uk-form-width-medium" type="text" placeholder="Your name" name="name">
-                           <input class="inputs1 uk-input uk-form-width-medium" type="tel" placeholder="Your phone" name="phone">
+                       <div class="uk-width-1-2@s">
+                           <input class="inputs1 uk-input" type="text" placeholder="Your name" name="name">
+                       </div>
+                       <div class="uk-width-1-2@s">
+                           <input class="inputs1 uk-input" type="tel" placeholder="Your phone" name="phone">
                        </div>
 
-                       <div class="uk-margin">
-                           <input class="inputs uk-input uk-form-width-large" type="email" placeholder="Your email" name="email">
+                       <div class="uk-width-1-1">
+                           <input class="inputs uk-input" type="email" placeholder="Your email" name="email">
                        </div>
 
-                       <div class="uk-margin">
+                       <div class="uk-width-1-1">
                            <input class="buttons uk-button uk-button-primary" type="submit" value="Send">
                        </div>
 
-                   </fieldset>
                </form>
                <h3>I'm on a mission to share everything I know to over the world</h3>
            </div>
